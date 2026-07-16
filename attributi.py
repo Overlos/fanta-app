@@ -8,7 +8,7 @@ rolePlayers = ['Portieri', 'Difensori', 'Centrocampisti', 'Trequartisti', 'Attac
 
 # Carica il file Excel con i dati dei calciatori
 df = pd.read_excel(
-    '/Quotazioni_Fantacalcio_Stagione_2024_25.xlsx', skiprows=1)
+    '/workspaces/fanta-app/Quotazioni_Fantacalcio_Stagione_2024_25.xlsx', skiprows=1)
 listName = df['Nome']
 df.set_index("Nome", inplace=True)
 
